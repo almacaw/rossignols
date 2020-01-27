@@ -1,15 +1,15 @@
-baseURL = "http://example.org/"
+baseURL = "http://en.littlefrenchescape-9iti.temp-dns.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Rossignols Gite"
 theme = "rossignols"
 [languages]
   [languages.en]
-    baseURL = "https://example.com"
+    baseURL = "http://en.littlefrenchescape-9iti.temp-dns.com/"
     languageName = "English"
     title = "In English"
     weight = 1
   [languages.fr]
-    baseURL = "https://example.fr"
+    baseURL = "http://fr.littlefrenchescape-9iti.temp-dns.com/"
     languageName = "Français"
     title = "En Français"
     weight = 2
