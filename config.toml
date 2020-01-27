@@ -1,0 +1,15 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "rossignols"
+[languages]
+  [languages.en]
+    baseURL = "https://example.com"
+    languageName = "English"
+    title = "In English"
+    weight = 1
+  [languages.fr]
+    baseURL = "https://example.fr"
+    languageName = "Français"
+    title = "En Français"
+    weight = 2

@@ -1,0 +1,22 @@
+<div class="ui two column photo grid">
+  <div class="column">
+    <div class="ui fluid card">
+      <a class="image" href="{{ .Get `photo1large` }}">
+        <img src="{{ .Get `photo1small` }}">
+      </a>
+      <div class="content">
+        {{ .Get "photo1text" }}
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="ui fluid card">
+      <a class="image" href="{{ .Get `photo2large` }}">
+        <img src="{{ .Get `photo2small` }}">
+      </a>
+      <div class="content">
+        {{ .Get "photo2text" }}
+      </div>
+    </div>
+  </div>
+</div>

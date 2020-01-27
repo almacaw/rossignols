@@ -1,0 +1,6 @@
+{{ $varActive := .Params.activeitem }}
+
+<a class="item home {{ if (eq $varActive `home`)}}active{{ end }}" href="/">Home</a>
+<a class="item thegite {{ if (eq $varActive `thegite`)}}active{{ end }}" href="/the-gite/">The Gite</a>
+<a class="item thingstodo {{ if (eq $varActive `thingstodo`)}}active{{ end }}">Things to do</a>
+<a class="item findus {{ if (eq $varActive `findus`)}}active{{ end }}" href="/find-us/">Find us</a>

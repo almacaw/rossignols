@@ -1,0 +1,126 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  {{ block "meta" .}}
+  {{ end }}
+
+  {{ block "css" .}}
+  <link rel="stylesheet" href="https://use.typekit.net/uao7zsq.css">
+  <link rel="stylesheet" href="https://use.typekit.net/uao7zsq.css">
+  <!-- You MUST include jQuery before Fomantic -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="{{ "/semantic/dist/semantic.min.css" | absURL }}">
+  <script src="{{ "/semantic/dist/semantic.min.js" | absURL }}"></script>
+  <link rel="stylesheet" href="{{ "/css/rossignols.css" | absURL }}">
+  <script src="{{ "/js/siteController.js" | absURL }}"></script>
+
+
+  <!-- Fotorama from CDNJS, 19 KB -->
+  <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
+  {{ end }}
+
+  <title>
+    {{ block "pageTitle" .}}
+    {{ .Params.pageTitle }}
+    {{ end }}
+  - Rossignols - Holiday Gite in South West France</title>
+
+</head>
+<body id="{{ .Params.bodyId }}">
+
+  <!-- Following Menu -->
+  <div class="ui large top fixed hidden menu" aria-hidden="true">
+    <div class="ui container">
+      {{ partial "menu" .}}
+      <div class="right menu">
+        <div class="item">
+          <a class="ui button">Prices and availability</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sidebar Menu -->
+  <div class="ui vertical inverted sidebar menu" aria-hidden="true">
+    {{ partial "menu" .}}
+    <div class="right menu">
+      <div class="item">
+        <a class="ui button">Prices and availability</a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Page Contents -->
+  <div class="pusher">
+    <div class="ui inverted vertical masthead center aligned segment">
+
+      <div class="ui container">
+        <div class="ui large secondary inverted pointing menu">
+          <a class="toc item">
+            <i class="sidebar icon"></i>
+          </a>
+          {{ partial "menu" .}}
+
+          <div class="right item">
+            <a class="ui inverted button">Prices and availability</a>
+          </div>
+        </div>
+
+      </div>
+<!-- Main page content -->
+
+
+        {{ block "masthead" .}}
+        {{ partial "masthead" .}}
+        {{ end }}
+
+
+
+        <span id="mainContent"></span>
+        {{ $varHasReadingPanel := .Params.hasReadingPanel }}
+        {{ if (eq $varHasReadingPanel true)}}
+
+
+        {{ partial "readingPanel" .}}
+
+        {{ end }}
+
+
+<!--Footer-->
+    <div class="ui inverted vertical footer segment">
+      <div class="ui container">
+        <div class="ui centered grid container">
+
+          <div class="seven wide column">
+            <h4 class="ui inverted header">Footer Header</h4>
+            <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
+          </div>
+
+          <div class="three wide column">
+            <div class="ui inverted link list">
+              {{ partial "menu" .}}
+            </div>
+          </div>
+
+          <div class="three wide column">
+            <div class="ui inverted link list">
+              {{ partial "languageSwitcher" .}}
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  <!-- End footer -->
+  </div>
+
+
+
+  </body>
+</html>

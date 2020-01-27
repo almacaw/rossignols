@@ -1,0 +1,18 @@
+<div class="ui vertical stripe segment">
+  <div class="ui text reading container galleryfy">
+<div class="crumbtrail">
+  {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+{{ $.Scratch.Add "path" .Site.BaseURL }}
+  <ol>
+    <li><a href="/">home</a></li>
+    {{ range $index, $element := split $url "/" }}
+      {{ $.Scratch.Add "path" $element }}
+        {{ if ne $element "" }}
+        <li><a href='{{ $.Scratch.Get "Title" }}'>{{ . }}</a></li>
+        {{ $.Scratch.Add "path" "/" }}
+        {{ end }}
+    {{ end }}
+  </ol>
+</div>
+</div>
+</div>

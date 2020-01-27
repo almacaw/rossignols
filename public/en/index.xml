@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>In English</title>
+    <link>https://example.com/</link>
+    <description>Recent content on In English</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Jan 2020 11:32:27 +0100</lastBuildDate>
+    
+	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lauzerte</title>
+      <link>https://example.com/things-to-do/lauzerte/</link>
+      <pubDate>Fri, 24 Jan 2020 11:32:27 +0100</pubDate>
+      
+      <guid>https://example.com/things-to-do/lauzerte/</guid>
+      <description>Head to this medieval bastide and reminiscent of a Tuscan Landscape for great views, a stunning old stone town and a fine square.
+Lauzerte has been classified since April 1990 among the villages labeled The Most Beautiful Villages in France—villages selected for the quality of their heritage, their architecture and their environment.
+Built on the trade on the pilgrims route to Compostela, pilgrims still pass though the two and a visit can be accompanied with a walk along the historic Pilgrims route.</description>
+    </item>
+    
+    <item>
+      <title>Penne</title>
+      <link>https://example.com/things-to-do/penne/</link>
+      <pubDate>Fri, 24 Jan 2020 11:32:27 +0100</pubDate>
+      
+      <guid>https://example.com/things-to-do/penne/</guid>
+      <description>This is the readingpanel inner content</description>
+    </item>
+    
+    <item>
+      <title>Find Us</title>
+      <link>https://example.com/find-us/</link>
+      <pubDate>Fri, 24 Jan 2020 11:31:03 +0100</pubDate>
+      
+      <guid>https://example.com/find-us/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
