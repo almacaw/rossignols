@@ -3,7 +3,7 @@ title: "Lauzerte"
 date: 2020-01-24T11:32:27+01:00
 draft: true
 bodyId: "lauzerte"
-pageTitle: "Lauzerte"
+pageTitle: "Lauzerte FR"
 activeitem: "thingstodo"
 hasReadingPanel: true
 mastheadTitleIntro: "Things to do"
