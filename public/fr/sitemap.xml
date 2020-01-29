@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://fr.littlefrenchescape-9iti.temp-dns.com/</loc>
+    <loc>http://en.littlefrenchescape-9iti.temp-dns.com/fr/</loc>
     <lastmod>2020-01-24T11:32:27+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -13,27 +13,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://fr.littlefrenchescape-9iti.temp-dns.com/"
+                href="http://en.littlefrenchescape-9iti.temp-dns.com/fr/"
                 />
   </url>
   
   <url>
-    <loc>http://fr.littlefrenchescape-9iti.temp-dns.com/things-to-do/lauzerte/</loc>
-    <lastmod>2020-01-24T11:32:27+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://en.littlefrenchescape-9iti.temp-dns.com/things-to-do/lauzerte/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://fr.littlefrenchescape-9iti.temp-dns.com/things-to-do/lauzerte/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://fr.littlefrenchescape-9iti.temp-dns.com/things-to-do/</loc>
+    <loc>http://en.littlefrenchescape-9iti.temp-dns.com/fr/things-to-do/</loc>
     <lastmod>2020-01-24T11:32:27+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -43,12 +28,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://fr.littlefrenchescape-9iti.temp-dns.com/things-to-do/"
+                href="http://en.littlefrenchescape-9iti.temp-dns.com/fr/things-to-do/"
                 />
   </url>
   
   <url>
-    <loc>http://fr.littlefrenchescape-9iti.temp-dns.com/categories/</loc>
+    <loc>http://en.littlefrenchescape-9iti.temp-dns.com/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -57,12 +42,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://fr.littlefrenchescape-9iti.temp-dns.com/categories/"
+                href="http://en.littlefrenchescape-9iti.temp-dns.com/fr/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://fr.littlefrenchescape-9iti.temp-dns.com/tags/</loc>
+    <loc>http://en.littlefrenchescape-9iti.temp-dns.com/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -71,7 +56,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://fr.littlefrenchescape-9iti.temp-dns.com/tags/"
+                href="http://en.littlefrenchescape-9iti.temp-dns.com/fr/tags/"
                 />
   </url>
   

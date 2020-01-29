@@ -1,0 +1,5 @@
+
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+    <li class="item{{if or ($currentPage.IsMenuCurrent `main` .) ($currentPage.HasMenuCurrent `main` .)  }} active{{end}}"><a class="sidebar-nav-item" href="{{ .URL }}">{{ .Name }}</a></li>
+    {{ end }}

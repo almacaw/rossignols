@@ -1,13 +1,11 @@
 ---
-title: "Lauzerte"
+title: "Lauzerte FR"
 date: 2020-01-24T11:32:27+01:00
-draft: true
+draft: false
 bodyId: "lauzerte"
-pageTitle: "Lauzerte FR"
 activeitem: "thingstodo"
 hasReadingPanel: true
 mastheadTitleIntro: "Things to do"
-mastheadTitle: "Lauzerte"
 mastheadTagLine: "Historic bastide, art, workshops and cafes"
 mastHeadLinkText: "Read more"
 mastHeadLink: "/"

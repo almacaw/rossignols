@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rossignols Gite</title>
+    <link>http://en.littlefrenchescape-9iti.temp-dns.com/</link>
+    <description>Recent content on Rossignols Gite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Jan 2020 11:32:27 +0100</lastBuildDate>
+    
+	<atom:link href="http://en.littlefrenchescape-9iti.temp-dns.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Things to do</title>
+      <link>http://en.littlefrenchescape-9iti.temp-dns.com/things-to-do/</link>
+      <pubDate>Fri, 24 Jan 2020 11:32:27 +0100</pubDate>
+      
+      <guid>http://en.littlefrenchescape-9iti.temp-dns.com/things-to-do/</guid>
+      <description>Come for un-touched medieval stone towns, sweeping landscapes and vibrant markets. Nearby  Lauzerte     Montcuq     More things to do </description>
+    </item>
+    
+    <item>
+      <title>Find Us</title>
+      <link>http://en.littlefrenchescape-9iti.temp-dns.com/find-us/</link>
+      <pubDate>Fri, 24 Jan 2020 11:31:03 +0100</pubDate>
+      
+      <guid>http://en.littlefrenchescape-9iti.temp-dns.com/find-us/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

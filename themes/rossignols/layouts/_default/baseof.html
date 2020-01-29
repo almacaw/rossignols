@@ -25,7 +25,7 @@
 
   <title>
     {{ block "pageTitle" .}}
-    {{ .Params.pageTitle }}
+    {{ .Title }}
     {{ end }}
   - Rossignols - Holiday Gite in South West France</title>
 
@@ -35,7 +35,7 @@
   <!-- Following Menu -->
   <div class="ui large top fixed hidden menu" aria-hidden="true">
     <div class="ui container">
-      {{ partial "menu" .}}
+      {{ partial "automenu" .}}
       <div class="right menu">
         <div class="item">
           <a class="ui button">Prices and availability</a>
@@ -46,7 +46,7 @@
 
   <!-- Sidebar Menu -->
   <div class="ui vertical inverted sidebar menu" aria-hidden="true">
-    {{ partial "menu" .}}
+    {{ partial "automenu" .}}
     <div class="right menu">
       <div class="item">
         <a class="ui button">Prices and availability</a>
@@ -54,31 +54,29 @@
     </div>
   </div>
 
-
+  {{ $varHasMastHead := .Params.hasMastHead }}
   <!-- Page Contents -->
   <div class="pusher">
-    <div class="ui inverted vertical masthead center aligned segment">
+    <div class="ui inverted vertical {{ if (eq $varHasMastHead true)}} masthead center {{ end }} aligned segment">
 
       <div class="ui container">
-        <div class="ui large secondary inverted pointing menu">
-          <a class="toc item">
+        <ul class="ui large secondary inverted pointing menu">
+          <li class="toc item"><a class="">
             <i class="sidebar icon"></i>
-          </a>
-          {{ partial "menu" .}}
+          </a></li>
+          {{ partial "automenu" .}}
 
-          <div class="right item">
+          <li class="right item">
             <a class="ui inverted button">Prices and availability</a>
-          </div>
-        </div>
+          </li>
+        </ul>
 
       </div>
 <!-- Main page content -->
 
-
-        {{ block "masthead" .}}
+        {{ if (eq $varHasMastHead true)}}
         {{ partial "masthead" .}}
         {{ end }}
-
 
 
         <span id="mainContent"></span>
@@ -103,7 +101,7 @@
 
           <div class="three wide column">
             <div class="ui inverted link list">
-              {{ partial "menu" .}}
+              {{ partial "automenu" .}}
             </div>
           </div>
 
